@@ -11,11 +11,8 @@ Principais propriedades:
 -A aba introdutória deve conter as informações introdutórias (Para que o site serve, como funciona, sessão de inscrição)
     -Na sessão de inscrição, o usuário faz uma conta que mantém guardada as seguintes informações:
         -E-mail
-        -Nome
-        -Idade
-        -Altura
-        -Massa
-        -Gênero
+        -Nome de usuário
+        -Senha
 Após o usuário ser identificado e visto como inscrito, a aba introdutória não aparecerá mais.
 
 -A aba inicial deve conter um resumo do progresso geral do usuário, mostrando, por meio de gráficos temporais:

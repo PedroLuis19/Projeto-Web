@@ -4,23 +4,32 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.lateral_box{
+    background-color: rgb(32, 29, 34);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 85px;
+    height: 100%;
+    padding: 30px;
+}
+
 form{
     background-color: rgb(32, 29, 34);
-    width: 280px;
-    height: 440px;
+    width: max-content;
+    height: max-content;
     padding: 30px;
     border-radius: 35px;
 }
 
 button{
-    width: 50px;
+    width: auto;
     height: 40px;
     background-color: greenyellow;
     color: rgb(32, 29, 34);
     font-size: 20px;
     border: none;
     border-radius: 7px;
-    
 }
 
 button:hover{
@@ -64,13 +73,18 @@ input:focus{
     border-color: greenyellow
 }
 
+li{
+    list-style: none;
+    margin-bottom: 60px;
+    margin-left: -20px;
+}
 
-.grid_container{
+
+#grid_container{
     display: grid;
     grid-column: 2/3;
     grid-row: 2/3;
 }
-
 
 
 .flexbox_container_top_center{
@@ -89,6 +103,12 @@ input:focus{
     display:flex;
     justify-content: center;
     align-items: flex-end;
+}
+
+.flexbox_container_left_center{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .link{
